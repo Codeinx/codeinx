@@ -8,6 +8,9 @@
 body {
     background-color: #fafafa;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 html {
     scroll-behavior: smooth;
@@ -730,3 +733,149 @@ img {
 }
 
 /* End of Contact Me */
+
+/* Footer */
+
+.socailLink {
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 100px 120px;
+    background-color: #4831D4;
+}
+
+.footerContentCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.footerTopContentCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.lOtherCon {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.xcel {
+    width: fit-content;
+    height: auto;
+}
+
+.xcel h3 {
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footerDescCon {
+    width: 50%;
+    height: auto;
+}
+
+.footerDescCon p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.rOtherCon {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.footerText {
+    width: fit-content;
+    height: auto;
+}
+
+.footerText h3 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footerImg {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.socialIcon {
+    color: #000000;
+}
+
+.footerBottomContentCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLineCon {
+    width: 100%;
+    height: auto;
+}
+
+hr{
+    border: 1px solid #ffffff;
+}
+
+.copyrightCon {
+    width: fit-content;
+    height: auto;
+}
+
+.copyrightCon p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+/* End of Footer */
+
+/* Responsiveness */
+
+.navLinkConT {
+    display: none;
+}
+
+.buttonConT {
+    display: none;
+}
+
+.menuCon {
+    display: none;
+}
+
+.footerTwo {
+    display: none;
+}
+
+/* Responsiveness */
