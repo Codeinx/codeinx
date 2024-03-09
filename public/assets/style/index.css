@@ -71,7 +71,7 @@ img {
 }
 
 .projectLink h3 {
-    color: white;
+    color: #e6a3af;
     font-size: 1rem;
 }
 
@@ -84,7 +84,7 @@ img {
 }
 
 .about h3 {
-    color: white;
+    color: #e6a3af;
     font-size: 1rem;
 }
 
@@ -97,7 +97,7 @@ img {
 }
 
 .resume h3 {
-    color: white;
+    color: #e6a3af;
     font-size: 1rem;
 }
 
@@ -140,8 +140,35 @@ img {
 }
 
 .helloCon h2 {
+    position: relative;
     font-size: 3rem;
-    color: white;
+    color: #4831D4;
+    -webkit-text-stroke: 0.02rem #e6a3af;
+}
+
+.helloCon h2::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #e6a3af;
+    -webkit-text-stroke: 0rem #e6a3af;
+    border-right: 2px solid #e6a3af;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate 
+{
+    0%, 10%, 100% 
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 100%;
+    }
 }
 
 .pronCon {
@@ -284,7 +311,7 @@ img {
 /* Skills */
 
 .scroller {
-    max-width: 900px;
+    max-width: 1000px;
   }
   
   .scroller__inner {
@@ -359,3 +386,333 @@ img {
   }
 
 /* End of Skills */
+
+/* Project Segment */
+
+.projectSect {
+    width: 100%;
+    height: auto;
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTextDesc {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectText {
+    width: fit-content;
+    height: auto;
+}
+
+.projectText h2 {
+    font-size: 2rem;
+    color: #e6a3af;
+}
+
+.projectDesc {
+    width: fit-content;
+    height: auto;
+}
+
+.projectDesc p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.projectsCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    justify-content: center;
+    align-items: start;
+}
+
+.firstRow {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCon {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.projectCon:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.randomQuotes {
+    width: 100%;
+    height: 35vh;
+    background-color: #8b8b8b;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-image: url("../images/QuoteGenerator.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleDescLinkCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.titleDescCon {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.titleCon {
+    width: fit-content;
+    height: auto;
+}
+
+.descCon {
+    width: fit-content;
+    height: auto;
+}
+
+.descCon p {
+    color: #605f5f;
+}
+
+.viewP {
+    text-decoration: none;
+    color: #e6a3af;
+}
+
+.viewP:hover {
+    text-decoration: underline;
+}
+
+/* End of Project Segment */
+
+/* Contact Me */
+
+.connectWithMe {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 120px 180px 120px;
+}
+
+.connectWithMeCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.connectWithMeTop {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.connectText {
+    width: fit-content;
+    height: auto;
+    
+}
+
+.connectText h2 {
+    font-size: 2rem;
+    color: #e6a3af;
+}
+
+.connectDesc {
+    width: 60%;
+    height: auto;
+}
+
+.connectDesc p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.connectWithMeBottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.otherConnect {
+    width: 50%;
+    height: auto;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem ;
+}
+
+.formContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.nameCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.nameInput {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #605f5f;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.nameInput:focus {
+    border: 2px solid #e6a3af;
+}
+
+.emailCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.emailInput {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #605f5f;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.emailInput:focus {
+    border: 2px solid #e6a3af;
+}
+
+.textAreaCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.textInput {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #605f5f;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.textInput:focus {
+    border: 2px solid #e6a3af;
+}
+
+.send {
+    background: none;
+    border:  none;
+    padding: 1rem 4rem;
+    border: 2px solid #e6a3af;
+    border-radius: 0.5rem;
+    color: #e6a3af;
+    font-size: 1rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.send:hover {
+    background: #e6a3af;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.anotherConnect {
+    width: 40%;
+    height: 70vh;
+    background-image: url("../images/new_Contact.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* End of Contact Me */
