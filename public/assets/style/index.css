@@ -298,7 +298,7 @@ img {
 }
 .lineCon {
     width: 6px;
-    height: 160px;
+    height: 220px;
     background-color: #e6a3af;
 }
 /* End of CineX and CodeinX */
@@ -804,11 +804,11 @@ hr{
         row-gap: 1rem;
         justify-content: center;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 1);
         padding: 2rem 3rem;
         border-radius: 0.5rem;
         position: absolute;
-        top: 80%;
+        top: 5%;
         left: 56%;
         visibility: hidden;
     }
@@ -817,13 +817,13 @@ hr{
         display: flex;
         flex-direction: column;
         row-gap: 1rem;
-        justify-content: end;
-        align-items: end;
-        background-color: rgba(255, 255, 255, 0.9);
+        justify-content: center;
+        align-items: start;
+        background-color: rgba(255, 255, 255, 1);
         padding: 2rem 3rem 2rem 3rem;
         border-radius: 0.5rem;
         position: absolute;
-        top: 80%;
+        top: .1%;
         left: 56%;
     }
 
@@ -832,13 +832,17 @@ hr{
         flex-direction: column;
         row-gap: 2rem;
         justify-content: center;
-        align-items: center;
+        align-items: start;
     }
+
+    /* .navTCon h3 {
+        font-size: 15px;
+    } */
 
     .iconCon {
         position: absolute;
-        top: 2%;
-        right: 4%;
+        top: 5%;
+        right: 5%;
     }
 
     .projectSect {
