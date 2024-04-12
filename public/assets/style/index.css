@@ -793,6 +793,7 @@ hr{
 @media (max-width: 480px) {
     .heroCon {
         height: 80vh;
+        width: 100%;
     }
 
     .navLinkCon {
