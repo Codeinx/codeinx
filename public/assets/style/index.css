@@ -791,10 +791,10 @@ hr{
 }
 
 @media (max-width: 480px) {
-    .heroCon {
+    /* .heroCon {
         height: 80vh;
         width: 100%;
-    }
+    } */
 
     .navLinkCon {
         display: none;
