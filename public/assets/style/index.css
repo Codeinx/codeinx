@@ -380,7 +380,7 @@ img {
     padding: 80px 120px;
     display: flex;
     flex-direction: column;
-    row-gap: 6rem;
+    row-gap: 4rem;
     justify-content: center;
     align-items: center;
 }
@@ -402,14 +402,14 @@ img {
     color: #e6a3af;
     text-transform: uppercase;
 }
-.projectDesc {
+/* .projectDesc {
     width: fit-content;
     height: auto;
 }
 .projectDesc p {
     font-size: 1.2rem;
     font-weight: 600;
-}
+} */
 .projectsCon {
     width: 100%;
     height: auto;
@@ -537,6 +537,7 @@ img {
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
+    color: #000000a8;
 }
 .connectWithMeBottom {
     width: 100%;
@@ -864,7 +865,7 @@ hr{
         padding: 80px 16px;
         display: flex;
         flex-direction: column;
-        row-gap: 4rem;
+        row-gap: 3rem;
         justify-content: center;
         align-items: center;
     }
@@ -890,7 +891,7 @@ hr{
         text-transform: uppercase;
     }
 
-    .projectDesc {
+    /* .projectDesc {
         width: fit-content;
         height: auto;
     }
@@ -898,7 +899,7 @@ hr{
     .projectDesc p {
         font-size: 1.2rem;
         font-weight: 600;
-    }
+    } */
 
     .projectsCon {
         width: 90%;
