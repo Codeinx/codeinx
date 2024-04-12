@@ -105,7 +105,7 @@ img {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
 }
@@ -790,6 +790,10 @@ hr{
 }
 
 @media (max-width: 480px) {
+    .heroCon {
+        height: 80vh;
+    }
+
     .navLinkCon {
         display: none;
     }
@@ -801,7 +805,7 @@ hr{
     .navLinkConT {
         display: flex;
         flex-direction: column;
-        row-gap: 1rem;
+        /* row-gap: 1rem; */
         justify-content: center;
         align-items: center;
         background-color: rgba(255, 255, 255, 1);
@@ -816,28 +820,37 @@ hr{
     .navLinkConTVisible {
         display: flex;
         flex-direction: column;
-        row-gap: 1rem;
+        /* row-gap: rem; */
         justify-content: center;
-        align-items: start;
+        align-items: center;
         background-color: rgba(255, 255, 255, 1);
         padding: 2rem 3rem 2rem 3rem;
-        border-radius: 0.5rem;
-        position: absolute;
-        top: .1%;
-        left: 56%;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: .01%;
+        z-index: 1;
+        left: 0px;
+        overflow: hidden;
     }
 
     .navTCon {
         display: flex;
         flex-direction: column;
-        row-gap: 2rem;
+        row-gap: 4rem;
         justify-content: center;
         align-items: start;
     }
 
-    /* .navTCon h3 {
-        font-size: 15px;
-    } */
+    .navTCon h3 {
+        font-size: 50px; 
+    }
+
+    .navTCon h3:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #4731d49d;
+    }
 
     .iconCon {
         position: absolute;
