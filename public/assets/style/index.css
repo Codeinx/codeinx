@@ -5,6 +5,7 @@
     font-family: "Inter", sans-serif;
 }
 body {
+    width: 100%;
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
@@ -792,6 +793,17 @@ hr{
 }
 
 @media (max-width: 480px) {
+    body {
+        width: 100%;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden !important;
+    }
+
+
     .heroCon {
         height: 80vh;
         width: 100%;
@@ -816,7 +828,7 @@ hr{
         border-radius: 0.5rem;
         position: absolute;
         top: 5%;
-        left: 56%;
+        /* left: 56%; */
         visibility: hidden;
     }
 
