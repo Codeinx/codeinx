@@ -122,7 +122,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
   background-color: transparent;
   background-image: none;
 }
@@ -145,7 +145,7 @@ progress {
 }
 
 [type="search"] {
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
   outline-offset: -2px;
 }
 
@@ -233,7 +233,7 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 img,
